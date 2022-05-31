@@ -1,0 +1,36 @@
+body {
+    background-image: url(../img/glit.jpg);
+    background-repeat: repeat; 
+    background-size: cover;
+    text-align: center;
+}
+
+@font-face {
+    font-family: 'comic';
+    src: url(fonts/comic.ttf);
+}
+
+@keyframes titulo {
+    0% {
+      opacity: 0; }
+    100% {
+      opacity: 100%; } }
+  
+  h1 {
+    margin: 10px;
+    padding-top: 10px;
+    font-size: 10rem;
+    font-family: "comic";
+    animation-name: titulo;
+    animation-duration: 4s;
+    animation-iteration-count: initial;
+    background-color: #f3f2f1;
+    background-size: contain;
+    }
+
+div img {
+    height: 500px;
+}
+
+
+    
